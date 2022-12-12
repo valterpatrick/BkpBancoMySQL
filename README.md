@@ -1,6 +1,6 @@
 Backup automatizado do Banco de Dados MySQL.
 
-Desenvolvido em Delphi, utilizando os comandos do "mysqldump" para realizar o Backup automatizado do banco de dados MySQL e salvar em uma pasta específica.
+Desenvolvido em Delphi, utilizando os comandos do "mysqldump" para realizar o Backup automatizado do banco de dados MySQL (pode fazer mais de um ao mesmo tempo) e salvar em uma pasta específica.
 
 No projeto utilizo apenas VCL salvando e lendo os dados de um arquivo INI sem criptografia (pode ser alterado) e usando um ClientDataSet para manipular os dados. O timer verifica a cada X minutos se está na hora de realizar o backup e o faz. Há um tryicon para poder maximizar e minimizar o aplicativo na bandeja. Na virada do dia o aplicativo exclui os arquivos na pasta e limpa o memo.
 
