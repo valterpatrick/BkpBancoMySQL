@@ -11,7 +11,6 @@ type
   TFrmConfiguracoes = class(TForm)
     PnBotoes: TPanel;
     PnBackups: TPanel;
-    DBGrid: TBGDBGrid;
     DSBackups: TDataSource;
     BtnFechar: TBitBtn;
     BtnGravar: TBitBtn;
@@ -31,6 +30,7 @@ type
     CDSBackupsDH_ULT_BKP: TDateTimeField;
     CmbExibirTelaDos: TComboBox;
     Label3: TLabel;
+    DBGrid1: TDBGrid;
     procedure FormDestroy(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure CDSBackupsNewRecord(DataSet: TDataSet);
@@ -38,6 +38,7 @@ type
     procedure FormCloseQuery(Sender: TObject; var CanClose: Boolean);
     procedure BtnGravarClick(Sender: TObject);
     procedure CDSBackupsBeforePost(DataSet: TDataSet);
+    procedure CDSBackupsBeforeDelete(DataSet: TDataSet);
   private
     CodBackup: Integer;
     vPodeFechar: Boolean;
@@ -79,6 +80,12 @@ begin
     FrmPrincipal.Log('TFrmConfiguracoes.BtnGravarClick', '##### Houve um erro ao tentar gravar. Tente novamente.');
     Application.MessageBox('Houve um erro ao tentar gravar. Tente novamente.', 'Erro', MB_ICONERROR + MB_OK);
   end;
+end;
+
+procedure TFrmConfiguracoes.CDSBackupsBeforeDelete(DataSet: TDataSet);
+begin
+  if Application.MessageBox('Confirma a exclusão do registro?', 'Confirmação', MB_ICONQUESTION + MB_YESNO) = IDNO then
+    Abort;
 end;
 
 procedure TFrmConfiguracoes.CDSBackupsBeforePost(DataSet: TDataSet);
@@ -131,7 +138,7 @@ end;
 procedure TFrmConfiguracoes.FormCreate(Sender: TObject);
 var
   vTipoBackup, vTimer: Integer;
-  vExibirTelaDos : Boolean;
+  vExibirTelaDos: Boolean;
 begin
   FrmPrincipal.Log('TFrmConfiguracoes.FormCreate', 'Aberto a tela de Configurações.');
   CodBackup := 0;

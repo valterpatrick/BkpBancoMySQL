@@ -4,12 +4,12 @@
     <Transaction>2022/12/01 16:07:35.000.294,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/12/01 16:10:15.000.128,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/12/06 17:25:18.000.843,=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/12/06 17:25:46.000.300,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmPrincipal.dfm=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/12/06 17:25:46.000.300,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmPrincipal.pas=D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/12/06 17:26:08.000.834,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\BkpBancoMySQL.dproj=D:\Belizario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/06 17:25:46.000.300,D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/06 17:25:46.000.300,D:\Belizario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/12/06 17:26:08.000.834,D:\Belizario\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\BkpBancoMySQL.dproj</Transaction>
     <Transaction>2022/12/06 17:39:38.000.021,=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\Unit1.pas</Transaction>
-    <Transaction>2022/12/06 17:41:25.000.914,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmConfiguracoes.pas=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\Unit1.pas</Transaction>
-    <Transaction>2022/12/06 17:41:25.000.914,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmConfiguracoes.dfm=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\Unit1.dfm</Transaction>
+    <Transaction>2022/12/06 17:41:25.000.914,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\Unit1.dfm=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmConfiguracoes.dfm</Transaction>
+    <Transaction>2022/12/06 17:41:25.000.914,D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\Unit1.pas=D:\Dev\Projetos\Outros\Backup Banco de Dados Nuvem\uFrmConfiguracoes.pas</Transaction>
     <Transaction>2022/12/09 15:52:30.000.557,=D:\Dev\Projetos\Shared\Funcoes.pas</Transaction>
   </Transactions>
 </BorlandProject>

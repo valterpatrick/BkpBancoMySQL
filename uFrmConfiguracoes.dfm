@@ -55,7 +55,7 @@ object FrmConfiguracoes: TFrmConfiguracoes
     Height = 285
     Align = alClient
     TabOrder = 1
-    object DBGrid: TBGDBGrid
+    object DBGrid1: TDBGrid
       AlignWithMargins = True
       Left = 4
       Top = 4
@@ -64,20 +64,13 @@ object FrmConfiguracoes: TFrmConfiguracoes
       Align = alClient
       DataSource = DSBackups
       DrawingStyle = gdsGradient
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -11
-      Font.Name = 'Tahoma'
-      Font.Style = []
       Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgCancelOnExit]
-      ParentFont = False
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
       TitleFont.Color = clWindowText
       TitleFont.Height = -11
       TitleFont.Name = 'Tahoma'
-      TitleFont.Style = [fsBold]
-      DefaultHighlight = False
+      TitleFont.Style = []
       Columns = <
         item
           Expanded = False
@@ -200,6 +193,7 @@ object FrmConfiguracoes: TFrmConfiguracoes
     Aggregates = <>
     Params = <>
     BeforePost = CDSBackupsBeforePost
+    BeforeDelete = CDSBackupsBeforeDelete
     OnNewRecord = CDSBackupsNewRecord
     Left = 40
     Top = 320
